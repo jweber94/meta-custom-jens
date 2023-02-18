@@ -15,7 +15,7 @@ IMAGE_OVERHEAD_FACTOR ?= "1.0"
 IMAGE_ROOTFS_SIZE ?= "204800"
 
 # Add i2c and tell the image to install the WIFI driver
-IMAGE_INSTALL:append = " python3 i2c-tools get-i2c-data kernel-module-r8188eu linux-firmware-rtl8188 iw wpa-supplicant wireless-regdb-static"
+IMAGE_INSTALL:append = " python3 i2c-tools get-i2c-data kernel-module-r8188eu linux-firmware-rtl8188 iw wpa-supplicant wireless-regdb-static openssh"
 CORE_IMAGE_INSTALL:append = " dhcp-client"
 
 DEPENDS:append = " dtc-native"

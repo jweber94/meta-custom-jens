@@ -1,6 +1,11 @@
 # Jens' custom yocto layer for the STM32MP1157D-DK1
 + This is my first custom yocto layer that is build upon the tutorial that you can find here: https://www.youtube.com/watch?v=bTEdfwtPtNY&list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB&index=6
 
+## Ressources
++ https://www.youtube.com/watch?v=PY4godidHx4&t=1612s
++ https://docs.yoctoproject.org/2.1/sdk-manual/sdk-manual.html#sdk-development-model
++ https://www.youtube.com/watch?v=u1rzYRz83kc&t=2245s
+
 ## Adding a password to root
 + In contrast to the youtube tutorial, the `-P` of yocto's usermod does not exist anymore, you can see this on [this](https://docs.yoctoproject.org/migration-guides/migration-3.4.html) page
 	- As an example for _how to add a password to the root user_,  you can have a look at https://docs.yoctoproject.org/ref-manual/variables.html#term-EXTRA_USERS_PARAMS

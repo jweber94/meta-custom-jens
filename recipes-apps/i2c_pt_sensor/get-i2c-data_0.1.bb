@@ -14,7 +14,7 @@ TARGET_CC_ARCH += "${LDFLAGS}"
 
 # Cross-compile source code
 do_compile() {
-    ${CC} -o get_i2c_data get_i2c_data.c
+    ${CC} -o get_i2c_data get_i2c_data.c -lm
 }
 
 # Create /usr/bin in rootfs and copy program to it
